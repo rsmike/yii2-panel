@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class PanelAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/rsmike/yii2-panel/assets';
+    public $sourcePath = '@vendor/rsmike/yii2-panel/src/assets';
     public $css = [
         'panel.scss',
         'panel.styles.scss',
