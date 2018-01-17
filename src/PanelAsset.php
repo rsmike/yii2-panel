@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components\panel;
+namespace rsmike\panel;
 
 use yii\web\AssetBundle;
 
@@ -9,9 +9,10 @@ use yii\web\AssetBundle;
  */
 class PanelAsset extends AssetBundle
 {
-    public $sourcePath = '@common/components/panel/assets';
+    public $sourcePath = '@vendor/rsmike/yii2-panel/assets';
     public $css = [
         'panel.scss',
+        'panel.styles.scss',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapAsset',
