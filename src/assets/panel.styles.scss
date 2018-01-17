@@ -1,0 +1,25 @@
+// Additional styles and tweaks
+
+.panel-paper {
+    border-color: #dddddd;
+    > .panel-body {
+      background: url('/img/halftone.png');
+    }
+  }
+  
+  .panel-default {
+    > .panel-heading {
+      background-color: #EFFBFF;
+    }
+  }
+  
+  .panel-filter {
+    border-color: #dddddd;
+    > .panel-heading {
+      background-color: #FCF8E3;
+      border-color: #dddddd;
+    }
+    > .panel-body {
+      background-color: #FCF8E3;
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "name": "rsmike/yii2-panel",
+    "description": "Collapsible panel widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","panel","bootstrap","collapse","collapsible"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rsmike",
+            "email": "rsmike@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rsmike\\panel\\": "src"
+        }
+    }
+}
