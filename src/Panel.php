@@ -60,7 +60,7 @@ class Panel extends Widget
      * primary, success, info, warning, danger, default (see Bootstrap panel documentation)
      * paper - additional classes (see panel.styles.css)
      */
-    public $panelStyle = 'default';
+    public $type = 'default';
 
     /**
      * @var string Additional class for the whole thing
@@ -167,8 +167,8 @@ class Panel extends Widget
         if (empty($content)) {
             Html::addCssClass($outerOptions, 'panel-empty');
         }
-        if ($this->panelStyle) {
-            Html::addCssClass($outerOptions, 'panel-' . $this->panelStyle);
+        if ($this->type) {
+            Html::addCssClass($outerOptions, 'panel-' . $this->type);
         }
         if ($this->outerClass) {
             Html::addCssClass($outerOptions, $this->outerClass);
