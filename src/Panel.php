@@ -112,7 +112,8 @@ class Panel extends Widget
     }
 
     public function run() {
-        $content = $this->makeEmpty?'':$this->content . trim(ob_get_clean());
+        $this->content .= trim(ob_get_clean());
+        $content = $this->makeEmpty ? '' : $this->content;
 
         if ($this->hideEmpty && empty($content)) {
             return '';
